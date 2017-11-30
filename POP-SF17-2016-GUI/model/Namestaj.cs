@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace POP_SF39_2016.model
 {
-    public class Namestaj
+    public class Namestaj : INotifyPropertyChanged, ICloneable
     {
+        private int id;
+        private string naziv;
+
+        [Xml ignore]
         public int Id { get; set; }
         public string Naziv { get; set; }
 
@@ -35,6 +40,7 @@ namespace POP_SF39_2016.model
             }
             return null;
         }
+        
        
     }
 }

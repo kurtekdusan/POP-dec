@@ -11,7 +11,8 @@
             <RowDefinition Height="245*"/>
             <RowDefinition Height="74*"/>
         </Grid.RowDefinitions>
-        <ListBox FontSize="20" Grid.Row="0" Name="lbNamestaj"/>
+        <ListBox FontSize="20" Grid.Row="0" Name="lbNamestaj" AutoGeneratngColumg="dgNamestaj_AutoGeneratingColumn" />
+        //horizontal alignment is readonly true, user cant change
         <Button Content ="Dodaj" Grid.Row="1" Height="40" Width="80" Click="DodajNamestaj"/>
         <Button Content ="Izmeni" Grid.Row="1" Height="40" Width="80" Margin="121,17,316,17" Click="IzmeniNamestaj"/>
         <Button Content ="Obrisi" Grid.Row="1" Height="40" Width="80" Margin="313,17,124,17" Click="ObrisiNamestaj"/>

@@ -15,3 +15,6 @@ C:\Users\Aleksandra\Downloads\POP-SF17-2016-GUI\POP-SF17-2016-GUI\obj\Debug\POP-
 C:\Users\Aleksandra\Downloads\POP-SF17-2016-GUI\POP-SF17-2016-GUI\obj\Debug\POP-SF17-2016-GUI.csproj.CoreCompileInputs.cache
 C:\Users\Aleksandra\Downloads\POP-SF17-2016-GUI\POP-SF17-2016-GUI\obj\Debug\POP-SF39-2016-GUI.exe
 C:\Users\Aleksandra\Downloads\POP-SF17-2016-GUI\POP-SF17-2016-GUI\obj\Debug\POP-SF39-2016-GUI.pdb
+C:\Users\sf17-2016\Source\Repos\POP-dec\POP-SF17-2016-GUI\bin\Debug\POP-SF39-2016-GUI.exe.config
+C:\Users\sf17-2016\Source\Repos\POP-dec\POP-SF17-2016-GUI\obj\Debug\POP-SF39-2016-GUI.exe
+C:\Users\sf17-2016\Source\Repos\POP-dec\POP-SF17-2016-GUI\obj\Debug\POP-SF39-2016-GUI.pdb

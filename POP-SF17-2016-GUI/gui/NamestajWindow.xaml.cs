@@ -61,11 +61,23 @@ namespace POP_SF39_2016_GUI.ui
         {
 
             var ListaNamestaja = Projekat.Instance.Namestaj;
-            TipNamestaja izabraniTipNamestaja = ((TipNamestaja)cbTipNamestaja.SelectedItem);
+            //TipNamestaja izabraniTipNamestaja = ((TipNamestaja)cbTipNamestaja.SelectedItem);
 
             switch (operacija)
             {
                 case Operacija.DODAVANJE:
+                    //namestaj.Id = listaNamestaja.Count + 1;
+                    //listaNamestaja.Add(Namestaj);
+                    //break;
+                    //case TipOperacije.Izmena:
+                    //foreach (var n in listaNamestaja)
+                    //{
+                    //if(n.Id ==namestaj.Id)
+                    //{
+                    //n.TipNamestajaId = namestaj.TipNamestajaId;
+                    //n.Naziv = namestaj.Naziv;
+                    //break;
+                    //}
                     var noviNamestaj = new Namestaj()
                     {
                         Id = ListaNamestaja.Count + 1,
@@ -96,6 +108,18 @@ namespace POP_SF39_2016_GUI.ui
         private void ZatvoriWindow(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+        public object Clone()
+        {
+            return new Namestaj()
+            {
+                id = Id,
+                Naziv = Naziv,
+                Cena = Cena,
+                Obrisan = Obrisan,
+                tipNamestaja = TipNamestaja,
+                tipNamestajaId = TipNamestajaId
+            }
         }
     }
 }

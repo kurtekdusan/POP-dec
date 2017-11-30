@@ -16,6 +16,9 @@
             <RowDefinition Height="39"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        //laber grid row 0 c 0 r 2 selected item = binding path izabran namestaj
+        
+
         <Label Grid.Row="0" Grid.Column="0" Content="Naziv:" FontSize="15" Grid.RowSpan="2"/>
         <TextBox Grid.Row="0" Grid.Column="1" Width="Auto" Name="tbNaziv" Grid.RowSpan="2"/>
         <Button Content="Sacuvaj" Grid.Row="2" Grid.Column="1" Margin="10,21,108,21" Click="SacuvajIzmene"/>
